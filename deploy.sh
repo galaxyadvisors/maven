@@ -2,6 +2,6 @@
 
 set -eux
 
-mvn deploy:deploy-file -Dversion=2.0-20150321.214216-2 -DpomFile=ews-java-api-2.0-20150321.214216-2.pom -Dfile=ews-java-api-2.0-20150321.214216-2.jar -Durl=file:snapshots
-mvn deploy:deploy-file -Dversion=2.0-20150331.184334-7 -DpomFile=ews-java-api-2.0-20150331.184334-7.pom -Dfile=ews-java-api-2.0-20150331.184334-7.jar -Durl=file:snapshots
+# Command to push a jar and pom to the repository. Update the command with
+# your jar and pom and version.
 mvn deploy:deploy-file -Dversion=2.0-20150407.093737-16 -DpomFile=ews-java-api-2.0-20150407.093737-16.pom -Dfile=ews-java-api-2.0-20150407.093737-16.jar -Durl=file:snapshots
